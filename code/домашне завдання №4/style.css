@@ -1,0 +1,44 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+#simple-id {
+    color: #169393;
+}
+
+.colorize {
+    color: purple;
+}
+
+.colorize.border-bottom {
+    border-bottom: solid;
+}
+
+h3 {
+    color: #977ea596;
+}
+
+li:nth-child(5) {
+    color: royalblue;
+}
+
+ol>li>text {
+    color: brown;
+}
+
+button:hover {
+    color: red;
+}
+
+[data-somedata] {
+    color: green;
+}
+
+[data-somedata="test2"] {
+    border-bottom: solid;
+}
+  
+  
+  
+  
+  

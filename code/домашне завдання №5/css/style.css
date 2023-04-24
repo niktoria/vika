@@ -1,0 +1,55 @@
+* front-fece {
+    font-family: Oswald, sans-serif;
+    src: url(../fonts/Roboto-Regular.woff);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-wrapper {
+    font-size: 0;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    font-size: 14px;
+    width: 200px;
+    height: 235px;
+    background: #E0E0E0;
+
+}
+
+.card .image {
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    background-color: aliceblue;
+}
+
+.card .title3 {
+    font-size: 18px;
+    line-height: 22px;
+    height: 22px;
+
+}
+
+.card .text {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    width: 200px;
+    height: 36px;
+
+}

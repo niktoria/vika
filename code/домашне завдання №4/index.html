@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;1,300&display=swap"
+          rel="stylesheet">
+    <title>Якими бувають селектори</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<ol>
+    <li>
+        <p id="simple-id">
+            #simple-id - Буде обрано елемент з ID happy-cake.
+        </p>
+    </li>
+    <li>
+        <p class="colorize">
+            .colorize - Буде обрані елементи з CLASS module.
+        </p>
+    </li>
+    <li>
+        <p class="colorize border-bottom">
+            .colorize.border-bottom - Буде обрані елементи з CLASS .colorize та .border-bottom
+        </p>
+    </li>
+    <li>
+        <h3> h3 - Буде обрані елементи з тегом h3.</h3>
+    </li>
+    <li>
+        li:nth-child(5) - Селектор позиції. Буде обрано 5 елемент li.
+    </li>
+    <li>
+        <text>
+            ol>li>text - Буде обрано елемент P у якого батьки li та ol.
+        </text>
+    </li>
+    <li>
+        <button>button:hover - Буде обрано елемент button та стиль при наведенні</button>
+    </li>
+    <li>
+        * - Буде застосовані правила до усіх елементів.
+    </li>
+    <li>
+        <p data-somedata="test">
+            [data-somedata] - Буде обрано елемент з attr data-somedata.
+        </p>
+    </li>
+    <li>
+        <p data-somedata="test2">
+            [data-somedata] - Буде обрано елемент з attr data-somedata.
+        </p>
+    </li>
+</ol>
+</body>
+</html>

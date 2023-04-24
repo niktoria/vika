@@ -1,0 +1,51 @@
+/* body {
+    padding-inline: 20%;
+}
+
+ul{
+    list-style: none;
+}
+.container {
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    /* outline: 5px solid red; */
+}
+
+
+
+/*header*/
+.header {
+    background-color: #eeeff1;
+}
+
+.header .menu ul li {
+    display: inline-block;
+    margin: 40px 42px 30px 0;
+    /* padding-top: 70px; */
+}
+
+.header .menu-link {
+    color: #34547A;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+/*<PROMO */
+.promo h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    margin-top: 60px;
+}
+
+.promo .text{
+    font-size: 16px;
+    margin: 30px 0 50px;
+}
+
+/* <PROMO end */ 
