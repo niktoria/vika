@@ -6,8 +6,9 @@
 .section {
     display: flex;
     flex-direction: column;
-    padding-inline: 20%;
+    padding-inline: 11%;
 }
+
 .container .top-line .container {
     width: 100%;
     background: #E5E5E5;
@@ -39,7 +40,7 @@
 
 .group-2 {
     background: #ffffff;
-    padding: 120px;
+    padding: 50px;
     display: flex;
     justify-content: space-around;
 }
@@ -56,7 +57,7 @@
 .text-beauty {
     text-transform: uppercase;
     font-family: 'Roboto';
-    font-size: 36px;
+    font-size: 30px;
     line-height: 73px;
     letter-spacing: 0.1em;
     font-weight: bold;
@@ -88,6 +89,7 @@
 
 .right .element_style {
     font-family: 'Roboto';
+    font-size: 16px;
     margin: 3em 2em 3em 0
 }
 
@@ -110,9 +112,7 @@
 
 .promo {
     padding-left: 200px;
-    height: 2500px;
     background: url(/img/Rectangle2.svg) no-repeat;
-    background-size: contain;
 }
 
 .conteiner {
@@ -121,11 +121,67 @@
     /* width: 200px; */
     padding-left: 233px;
     padding-top: 10%;
-    height: 161px;
+    height: 400px;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+}
 
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E5E5E5;
+}
 
+.cards .title3 {
+    font-size: 18px;
+    line-height: 22px;
+    height: 22px;
+}
+.cards-wrapper{
+    display: flex;
+}
+.card {
+    display: inline-block;
+    padding: 38px;
+    text-align: center;
+    margin: 20px;
+    font-size: 14px;
+    width: 200px;
+    height: 235px;
+    background: #FFFFFF;
+}
+
+.cards-wrapper .card .image {
+    display: inline-block;
+    width: 200px;
+    height: 166px;
+    background: #FFFFFF;
+}
+
+.cards-wrapper .card .title4 {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.cards-wrapper .card .text {
+    font-family: 'Roboto';
+    text-align: center;
+    color: #000000;
+    letter-spacing: 0.05em;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.cards-wrapper .card .buttons {
+    font-family: 'Roboto';
+    line-height: 34px;
+    color: #FFFFFF;
+    width: 120px;
+    background: #F13C6E;
+    border-radius: 30px;
+    width: 130px;
+    height: 35px;
 }
