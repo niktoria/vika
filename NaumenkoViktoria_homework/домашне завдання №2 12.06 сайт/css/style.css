@@ -28,7 +28,7 @@
     font-size: 15px;
 }
 
-#btn {
+.btn {
     font-family: 'Kumbh Sans';
     font-style: normal;
     font-weight: 600;
@@ -40,19 +40,23 @@
     border-radius: 4px;
 }
 
+
 /* top menu end*/
 /* hero left */
 .hero {
-    position: absolute;
-    left: -5.64%;
     background: #FAF8F6;
-    height: 522px;
+    height: 518px;
+    width: 1077px;
+    top: 73px;
 }
-
+.left .wave{
+    position: absolute;
+    top: 114px;
+    left: 94px;
+}
 .hero .left .text-translucent {
     font-family: 'Kumbh Sans';
-    font-weight: 400;
-    margin: 3em 37em 1em 80px;
+    margin: 5em 37em 1em 0px;
     color: #4A556C;
     opacity: 0.4;
 }
@@ -62,7 +66,7 @@
     font-weight: 800;
     font-size: 72px;
     color: #333461;
-    margin: 0px 475px 19px 73px;
+    margin: 0px 475px 19px 0px;
 }
 
 .left .text {
@@ -72,22 +76,22 @@
     font-size: 18px;
     line-height: 160%;
     color: #4A556C;
-    margin: 0px 538px 34px 73px;
+    margin: 0px 538px 34px 0px;
 }
 
-.left>#btn {
-    margin: 0px 0px 0px 73px;
+.left>.btn {
+    margin: 0px 0px 0px 0px;
 }
 
 /* hero left end */
 /* hero right */
-.right>img {
+.hero .right>img {
     z-index: 1;
     position: absolute;
     width: 389px;
     height: 564px;
     left: 851px;
-    top: 71px;
+    top: 144px;
 }
 
 .element1 {
@@ -96,8 +100,8 @@
     padding: 8px;
     width: 220px;
     height: 91px;
-    left: 737px;
-    top: 48px;
+    left: 740px;
+    top: 120px;
     background: #FFFFFF;
 }
 
@@ -112,8 +116,7 @@
     position: absolute;
     font-weight: 900;
     left: 96px;
-    top: 24px;
-    font-size: 24px;
+    size: 24px;
     line-height: 32px;
     color: #333461;
 }
@@ -130,18 +133,17 @@
 /* hero right end */
 /* introduction */
 .introduction{
-  
+    height: 518px;
+    width: 1077px;
+    top: 73px;
+}
+/* .about-myself{
+
 }
 .wave1{
-    position: absolute;
-    left: 15.42%;
-    top: 790px;
-    color: #3F3A64;
-}
-.introduction>text-coarse{
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 56px;
-}
 
+}
+.text-coarse{
+
+} */
 /* introduction end */
