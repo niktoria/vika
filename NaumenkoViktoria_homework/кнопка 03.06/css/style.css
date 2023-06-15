@@ -1,0 +1,44 @@
+.button {
+    margin: 2px;
+}
+
+.black {
+    border-radius: 5px;
+    border: 2px solid rgb(218, 37, 181);
+    background-color: black;
+    color: rgb(218, 37, 181);
+    cursor: pointer;
+}
+.black:hover {
+    background-color: rgb(218, 37, 181);
+    color: black;
+}
+.blue {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    border-radius: 60px;
+    border: 2px solid white;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    text-align: left;  
+}
+
+.blue:hover {
+    background-color: white;
+    color: blue;
+    border: 2px solid #4151d9;
+    text-align: right;  
+}
+.green {
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.green:hover {
+    background-color: white;
+    color: green;
+}

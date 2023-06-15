@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url(/forms/GraphikLCG-Regular.woff);
+}
+
+html * {
+    color: black;
+    font-family: 'Graphik LCG';
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.section {
+    display: flex;
+    padding-inline: 5%;
+}
+
+/* top menu */
+.rectangle_menu {
+    font-family: 'Graphik LCG';
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+.rectangle_menu .link {
+    font-size: 15px;
+}
+
+.rectangle_menu__left {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rectangle_menu__right {
+    flex: 1 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.rectangle_menu .image {}
+
+.rectangle_menu .button {
+    margin: 3em 1em 3em;
+}
+
+.btn {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    background: #FF6336;
+    text-align: center;
+    width: 24%;
+    color: #000000;
+}
+
+.button {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    width: 24%;
+    color: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    /* margin: 3em 1em 3em; */
+}
+
+/* top menu end */
+
+/* data */
+.data {
+    font-family: 'Graphik LCG';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 6%;
+}
+
+.red-box {
+    width: 40%;
+}
+
+.red-box__left>p {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.red-box__left>h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    color: #000000;
+}
+.red-box__left .buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10% 0;
+}
+.buttons .btn_1{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    background: #FF6336;
+    text-align: center;
+    width: 40%;
+    color: #000000;
+    margin: 0px 15px 0px 0px;
+}
+.buttons .button_1{
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 43px;
+    text-align: center;
+    width: 40%;
+    color: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.imege__right>img{
+ width: 759px;
+height: 529px;
+}
+.red-box__left .subtext{
+    font-family: 'Graphik LC TT';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: #000000;
+}
+/* data end*/
+
+/* logo */
+.logo{
+    background: #FF9C7D;
+    width: 100%;
+}
+.text>p{
+    font-family: 'Graphik LC TT';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 60px;
+padding: 105px 197px 134px;
+text-align: center;
+
+color: #000000;
+}
+.brands{
+    display: flex;
+    padding: 10% 0;
+}

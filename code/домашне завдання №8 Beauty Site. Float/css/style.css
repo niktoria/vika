@@ -1,0 +1,348 @@
+@font-face {
+    font-family: Roboto;
+    src: url(/forms/Roboto-Regular.woff)
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 11% 2% 11%;
+    background: #E5E5E5;
+}
+
+.container .top-line {
+    width: 1110px;
+    background: #E5E5E5;
+
+}
+
+.top-line {
+    font-family: 'Roboto';
+    background: #E5E5E5;
+    align-items: center;
+}
+
+.top-line__menu .link {
+    text-decoration: none;
+    font-style: normal;
+    align-items: center;
+    gap: 30px;
+    top: 17px;
+    /* width: 50px; */
+    color: #333333;
+    margin: 0em 1em 0em 0;
+}
+
+.group-2 {
+    background: #ffffff;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text-beauty {
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 73px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    color: #F13C6E;
+}
+
+.group-2 .left {
+    display: flex;
+    align-items: center;
+}
+
+.group-2 .right {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right .secod-line_button {
+    font-family: 'Roboto';
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+    width: 170px;
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+}
+
+.right .element_style {
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin: 3em 2em 3em 0
+}
+
+.bottom-line {
+    font-family: 'Roboto';
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-line__menu .title1 {
+    color: #333333;
+    margin: 0em 3em 0em 0;
+    top: 19px;
+}
+
+.promo {
+    height: 400px;
+    width: auto;
+    background-image: url(/img/Rectangle2.svg);
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    height: 34px;
+    font-family: 'Roboto';
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+    width: 170px;
+    background: #F13C6E;
+    border: 2px solid #Ffffff;
+    border-radius: 40px;
+    margin: 2.67em 0;
+}
+
+.conteiner {
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    width: 20%;
+}
+
+.cards {
+    display: flex;
+    background: #E5E5E5;
+}
+
+.title3 {
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    padding: 5% 1%;
+    text-align: center;
+    /* margin: 18px; */
+    font-size: 22px;
+    /* width: 240px; */
+    height: 226px;
+    background: #FFFFFF;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.cards-wrapper .card .image {
+    display: inline-block;
+    height: 166px;
+    background: #FFFFFF;
+}
+
+.cards-wrapper .card .title4 {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.cards-wrapper .card .text {
+    font-family: 'Roboto';
+    text-align: center;
+    color: #000000;
+    letter-spacing: 0.05em;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.cards-wrapper .card .buttons {
+    font-family: 'Roboto';
+    line-height: 34px;
+    color: #FFFFFF;
+    width: 120px;
+    background: #F13C6E;
+    border-radius: 30px;
+}
+
+.wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #E5E5E5;
+}
+
+.impuls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 20%;
+    height: 100px;
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+}
+
+.categories {
+    background-color: #FFFFFF;
+}
+
+
+.categories>div>h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.categories>div>ul>li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+}
+
+hr {
+    border: 1px solid #EFEFEF;
+    margin: 25px 0 25px;
+}
+
+.container_categories {
+    width: 22%;
+}
+
+.data {
+
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.red-box {
+    display: flex;
+    background: #F13C6E;
+    width: 48%;
+    flex-direction: row;
+    height: 200px;
+}
+
+.box-text {
+    display: flex;
+    width: 50%;
+    margin: 5%;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #FFFFFF;
+}
+
+.box-text>h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.box-text>p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.box-image {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+input[type="email"] {
+    border-radius: 1em;
+    border: none;
+    padding: 0.5em;
+}
+
+
+.store-map {
+    border-radius: 1em;
+    padding: 0.5em;
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.footer {
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer-line {
+    border-top: 1px solid #EFEFEF;
+    background: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social,
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social>* {
+    margin-right: 15px;
+}
+
+.contact>* {
+    margin-left: 15px;
+}
+
+.callback {
+    border-radius: 1em;
+    padding: 0.5em;
+    background: none;
+    border: 1px solid #F13C6E;
+    color: black;
+}
