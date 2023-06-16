@@ -137,13 +137,35 @@
     width: 1077px;
     top: 73px;
 }
-/* .about-myself{
-
-}
 .wave1{
-
+    width: 101px;
+    height: 95px;
+}
+ .about-myself{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .text-coarse{
-
-} */
+    width: 492px;
+    font-family: 'Kumbh Sans';
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.01em;
+    color: #333461;
+}
+.text-description{
+    width: 490px;
+    height: 200px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-size: 17px;
+    line-height: 25px;
+    color: #4A556C;
+}
+p + p {
+    margin-top: 10px;
+  }
+  .cards-wrapper
 /* introduction end */
