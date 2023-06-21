@@ -449,19 +449,100 @@ span {
     width: 37px;
     height: 91px;
     margin: -7px 0px 0px 90px;
+    cursor: pointer;
 }
-.message{
+
+.message {
     font-family: 'Kumbh Sans';
     font-weight: 600;
     font-size: 12px;
     color: white;
     margin: -57px 0px 0px 137px;
 }
-.message-text{
+
+.message-text {
     font-family: 'Kumbh Sans';
     font-size: 9px;
     color: white;
     margin: 10px 0px 0px 139px;
 }
+
 /*  highlight end*/
-/* cursor: pointer; */
+/* offer */
+.offer {
+    width: 1077px;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.offer-title {
+    font-family: 'Kumbh Sans';
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    color: #333461;
+    margin: 144px 0px 0px 31px;
+}
+
+.offer-left {
+    background: #FAF8F6;
+    box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.04);
+    border-radius: 10% 0% 0% 10%;
+}
+
+.offer-right {
+    background: #FAF8F6;
+    box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.04);
+    border-radius: 0% 10% 10% 0%;
+}
+
+.screen {
+    border-radius: 0% 0% 10% 0%;
+    top: 0px;
+    width: 527px;
+    margin: 76px 0px 0px 0px;
+}
+.cell-btn{
+    width: 92px;
+    height: 37px;
+    background: #FFFFFF;
+    border-radius: 9px;
+    color: #428B7F;
+    font-family: 'Kumbh Sans';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 36px;
+    cursor: pointer;
+    border-color: white;
+    border-style: solid;
+    transform: translate(19%, -1065%);
+}
+.cell-btn>img{
+margin: 0px 8px -5px 0px
+}
+.offer-text{
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: rgba(74, 85, 108, 0.5);
+margin: 14px 0px 14px 33px;
+}
+.btn-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 42px;
+    background: #20AD96;
+    border-radius: 10px;
+    font-family: 'Kumbh Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 14px 0px 14px 33px;
+    cursor: pointer;
+}
+/* offer end*/
