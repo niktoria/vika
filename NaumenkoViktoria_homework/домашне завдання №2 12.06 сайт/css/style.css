@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Kumbh Sans';
-    src: url(/forms/Kumbh-Sans.woff);
+    src: url(fonts/Kumbh-Sans.woff);
 }
 
-/* html * {
+html * {
     color: black;
     font-family: 'Kumbh Sans';
-} */
+}
 
 .section {
     display: flex;
