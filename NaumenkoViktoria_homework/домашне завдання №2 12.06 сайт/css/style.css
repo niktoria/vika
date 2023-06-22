@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Kumbh Sans';
-    src: url(fonts/Kumbh-Sans.woff);
+    src: url("../fonts/Kumbh-Sans.woff");
 }
 
 html * {
